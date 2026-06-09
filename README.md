@@ -11,6 +11,25 @@ Este proyecto es una solución basada en **Google Apps Script** para gestionar e
 * **Soporte Bilingüe Automático:** Utiliza `LanguageApp` para traducir automáticamente las notas y comentarios de los inspectores (Español a Inglés) dentro de los reportes PDF.
 * **Integración con Google Workspace:** Archiva automáticamente los registros en Google Sheets y guarda las imágenes y PDFs en carpetas específicas de Google Drive.
 
+<table>
+  <tr>
+    <td width="25%">
+      <img src="images/Pantalla_Maquinas.jpg" alt="Pantalla Principal" width="95%">
+      <p align="center">Listado maquinas</p>
+    </td>
+    <td width="25%">
+      <img src="images/Pantalla_Refacciones.jpg" alt="Reporte PDF" width="95%">
+      <p align="center">Refacciones</p>
+    </td>
+    <td width="25%">
+      <img src="images/Reporte.jpg" alt="Reporte PDF" width="95%">
+      <p align="center">Reporte</p>
+    </td>
+  </tr>
+</table>
+
+
+
 ## 📂 Estructura del Proyecto
 
 * `codigo.gs`: Contiene el backend de la aplicación, configuraciones globales, y las funciones que sirven la interfaz web y guardan los datos en Sheets y Drive.
